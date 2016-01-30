@@ -7,5 +7,7 @@ all specialized for my needs.
 
 input.csv: semicolon separated columns where first is cell and next columns are its parents.
 
+```
 R --no-save < DependenciesToGraphs.R
 dot -Tpng graph.dot seko.png
+```
