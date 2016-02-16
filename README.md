@@ -9,5 +9,5 @@ input.csv: semicolon separated columns where first is cell and next columns are 
 
 ```
 R --no-save < DependenciesToGraphs.R
-dot -Tpng graph.dot seko.png
+dot -Tpng graph.dot > seko.png
 ```
